@@ -21,4 +21,4 @@
 4. ```bundle install```
 5. ```thor list```
 6. Complete above **Get Started** Steps
-7. ```thor env:dev && cucumber -t @v1.0```
+7. ```thor env:chrome && cucumber ```
