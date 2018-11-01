@@ -1,0 +1,13 @@
+# Ignore env.rb file
+features/support/env.rb
+features/support/ch.rb
+
+#Ignore cuke generate files
+*.html
+*.txt
+*.idea/
+.DS_Store
+#Ignore ruby mine files
+
+#Ignore jmeter jmx files
+ruby-jmeter.jmx

@@ -1,0 +1,216 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.2.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    archive-zip (0.11.0)
+      io-like (~> 0.3.0)
+    ast (2.4.0)
+    backports (3.11.3)
+    browserstack-automate (0.1.0)
+      browserstack-local (~> 1.2)
+      curb (~> 0)
+      selenium-webdriver
+    browserstack-local (1.3.0)
+    builder (3.2.3)
+    byebug (10.0.2)
+    capybara (3.1.1)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      xpath (~> 3.0)
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (1.2.0)
+      archive-zip (~> 0.10)
+      nokogiri (~> 1.8)
+    chunky_png (1.3.6)
+    clipboard (1.1.2)
+    coderay (1.1.2)
+    concurrent-ruby (1.0.5)
+    cucumber (3.1.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.1.0)
+      cucumber-expressions (~> 5.0.4)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.1.0)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (>= 5.0.0)
+    cucumber-expressions (5.0.18)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    cuke_sniffer (1.1.0)
+      nokogiri (~> 1.6, >= 1.6.8)
+      roxml (~> 3.3, >= 3.3.1)
+    cukehub (1.0.0)
+      httparty (~> 0)
+      os (~> 0)
+    curb (0.9.6)
+    data_magic (1.2)
+      faker (>= 1.1.2)
+      yml_reader (>= 0.6)
+    diff-lcs (1.3)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    eyes_core (3.14.3)
+      chunky_png (= 1.3.6)
+      faraday
+      oily_png (~> 1.2)
+      oj
+    eyes_selenium (3.14.3)
+      capybara
+      eyes_core (= 3.14.3)
+      selenium-webdriver
+      watir
+    faker (1.8.7)
+      i18n (>= 0.7)
+    faraday (0.15.2)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.23)
+    geckodriver-helper (0.20.2)
+      archive-zip (~> 0.7)
+    gherkin (5.1.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    i18n (1.0.1)
+      concurrent-ruby (~> 1.0)
+    io-like (0.3.0)
+    mail (2.7.0)
+      mini_mime (>= 0.1.1)
+    method_source (0.9.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_mime (1.0.0)
+    mini_portile2 (2.3.0)
+    minitest (5.11.3)
+    multi_json (1.13.1)
+    multi_test (0.1.2)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    net-ssh (4.2.0)
+    netrc (0.11.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    oily_png (1.2.0)
+      chunky_png (~> 1.3.1)
+    oj (3.6.0)
+    os (0.9.6)
+    page-object (2.2.4)
+      page_navigation (>= 0.10)
+      selenium-webdriver (~> 3.0)
+      watir (~> 6.8)
+    page_navigation (0.10)
+      data_magic (>= 0.22)
+    parallel (1.12.1)
+    parser (2.5.1.0)
+      ast (~> 2.4.0)
+    powerpack (0.1.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.6.0)
+      byebug (~> 10.0)
+      pry (~> 0.10)
+    public_suffix (3.0.2)
+    rack (2.0.5)
+    rack-test (1.0.0)
+      rack (>= 1.0, < 3)
+    rainbow (3.0.0)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    roxml (3.3.1)
+      activesupport (>= 2.3.0)
+      nokogiri (>= 1.3.3)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+    rubocop (0.56.0)
+      parallel (~> 1.10)
+      parser (>= 2.5)
+      powerpack (~> 0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-jmeter (3.1.08)
+      nokogiri
+      rest-client
+    ruby-progressbar (1.9.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.12.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2)
+    slack-notifier (2.3.2)
+    thor (0.20.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    unicode-display_width (1.3.3)
+    user_agent_parser (2.4.1)
+    watir (6.11.0)
+      selenium-webdriver (~> 3.4, >= 3.4.1)
+    webdrivers (3.3.1)
+      nokogiri (~> 1.6)
+      rubyzip (~> 1.0)
+      selenium-webdriver (~> 3.0)
+    xpath (3.1.0)
+      nokogiri (~> 1.8)
+    yml_reader (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  browserstack-automate
+  chromedriver-helper
+  clipboard
+  cucumber
+  cuke_sniffer
+  cukehub
+  eyes_selenium
+  geckodriver-helper
+  mail
+  net-ssh
+  page-object
+  pry
+  pry-byebug
+  rspec
+  rubocop
+  ruby-jmeter
+  selenium-webdriver
+  slack-notifier
+  thor
+  user_agent_parser
+  webdrivers
+
+BUNDLED WITH
+   1.16.1
