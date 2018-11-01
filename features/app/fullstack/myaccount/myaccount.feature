@@ -1,4 +1,4 @@
-@registration
+@registration @1-0
 Feature:  Registration
   Acceptance Criteria:
 

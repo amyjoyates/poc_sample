@@ -1,4 +1,4 @@
-@checkout @cart 
+@checkout @cart @1-0
 Feature:  Checkout
  Acceptance Criteria:
 
@@ -14,7 +14,7 @@ Feature:  Checkout
     When I scroll to the section called "Latest Blog Post"
     Then I should see a section with blog posts
 
- Scenario: Verify selection of a blog post
+  Scenario: Verify selection of a blog post
     Given I am on the home page
     And I scroll to the section called "Latest Blog Post"
     When I select a blog post

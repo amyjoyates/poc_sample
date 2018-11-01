@@ -1,4 +1,4 @@
-@footer @manual
+@footer @manual @1-0
 Feature:  Footer
 
 Background: Make sure you start on the homepage

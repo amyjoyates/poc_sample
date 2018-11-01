@@ -1,4 +1,4 @@
-@product-category
+@product-category @1-0
 Feature:  Product Category
   Acceptance Criteria:
 
@@ -16,15 +16,17 @@ Scenario: Verify the list of products
   Examples:
   | category | link |
   | Product Category | http://store.demoqa.com/products-page/product-category/ |
-  | Accessories | http://store.demoqa.com/products-page/product-category/accessories/
+  | Accessories | http://store.demoqa.com/products-page/product-category/accessories/ |
   | iMacs | http://store.demoqa.com/products-page/product-category/imacs/  |
   | iPads | http://store.demoqa.com/products-page/product-category/ipads/ |
   | iPhones | http://store.demoqa.com/products-page/product-category/iphones/ |
   | iPods | http://store.demoqa.com/products-page/product-category/ipods/ |
   | MacBooks | http://store.demoqa.com/products-page/product-category/macbooks/ |
 
+  Scenario Outline: Verify Accessory Pricing
 
-  accessories
+  Examples:
+  | Name | Original | Sale | Discount | Rating |
   | Magic Mouse | 200.00 | 150.00  | 50.00  | 3 |
   | Apple TV | 89.00 | 80.00 | 9.00 | 3 |
   | Sennheiser RS 120 | 60.00 | 50.00  | 10.00 | 3 |
@@ -33,13 +35,14 @@ Scenario: Verify the list of products
   | Asus MX239H 23-inch Widescreen AH | 249.99 | 199.00 | 50.00 | 4 |
 
   Scenario Outline: Verify each category page has the correct products listed
-  | Product Category | |
-  | Accessories | |
-  | iMacs |  |
-  | iPads |  |
-  | iPhones | |
-  | iPods |  |
-  | MacBooks |  |
+  Examples:
+  | Product Category |
+  | Accessories |
+  | iMacs |
+  | iPads |
+  | iPhones |
+  | iPods |
+  | MacBooks |
 
   Scenario: Verify Registration from Product Category Page
   Scenario: Verify Login from the Product Category Page

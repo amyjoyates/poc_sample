@@ -1,4 +1,4 @@
-@home
+@home @1-0
 Feature:  All Products
   Acceptance Criteria:
 
@@ -21,4 +21,3 @@ Feature:  All Products
   Scenario: Verify Rating Products are NOT shown in grid View
   Scenario: Verify Registration from All Products Page
   Scenario: Verify Login from the All Products Page
-  

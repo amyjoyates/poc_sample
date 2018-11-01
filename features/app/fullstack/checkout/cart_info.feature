@@ -1,4 +1,4 @@
-@checkout @cart
+@checkout @cart @1-0
 Feature:  Checkout
  Acceptance Criteria:
 

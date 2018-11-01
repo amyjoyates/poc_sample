@@ -1,4 +1,4 @@
-@blogpost @manual
+@blogpost @manual @1-0
 Feature:  Blog Posts
 
  Scenario: Verify blog posts change order with each load of the page

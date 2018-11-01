@@ -1,4 +1,4 @@
-@home
+@home @1-0
 Feature:  Home
   Acceptance Criteria:
 
@@ -8,7 +8,7 @@ Feature:  Home
     Then I should see a slider with 3 products
     And they should automatically slide to the next product every 5 seconds
 
-  Scenario: Verify Static Slider Content: Title, Image, Content, Price and Buy Now button
+  Scenario Outline: Verify Static Slider Content: Title, Image, Content, Price and Buy Now button
     Given I am on the home page
     When Right after the navigation menu
     Then I should see the Buy Now button
@@ -39,7 +39,7 @@ Feature:  Home
     | iPod Nano Blue |
     | iPhone 5|
 
-  Scenario: Verify slider navigation dots navigate to products
+  Scenario Outline: Verify slider navigation dots navigate to products
     Given I am on the home page
     And Right after the navigation menu
     When I click the <page> dot for the slider navigation

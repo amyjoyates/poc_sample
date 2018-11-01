@@ -1,4 +1,4 @@
-@software-delivery @manual
+@software-delivery @manual @1-0
 Feature:  Update Software
   Acceptance Criteria:
 
