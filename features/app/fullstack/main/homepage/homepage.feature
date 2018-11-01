@@ -50,3 +50,6 @@ Feature:  Home
     | First | Magic Mouse |
     | Second | iPod Nano Blue |
     | Third | iPhone 5|
+
+  Scenario: Verify Registration is not present on the home page
+  Scenario: Verify Login is not present on the home page

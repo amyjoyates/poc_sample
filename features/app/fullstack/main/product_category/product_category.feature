@@ -40,3 +40,6 @@ Scenario: Verify the list of products
   | iPhones | |
   | iPods |  |
   | MacBooks |  |
+
+  Scenario: Verify Registration from Product Category Page
+  Scenario: Verify Login from the Product Category Page
