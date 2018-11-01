@@ -44,5 +44,8 @@ Scenario: Verify the list of products
   | iPods |
   | MacBooks |
 
-  Scenario: Verify Registration from Product Category Page
-  Scenario: Verify Login from the Product Category Page
+  @1-1
+  Scenario: Verify Registration from Product Category Page is not present
+
+  @1-1
+  Scenario: Verify Login from the Product Category Page is not present
