@@ -19,7 +19,7 @@ Scenario: Verify Back to ONLINE STORE link
 Scenario: Verify Title of the Page
 
 # Registration Login
-Scenario: Verify registration login is successful on Registration login Page
+Scenario: Verify registration login is successful on Registration login Page after receiving email verify notification
 Scenario: Verify registration login page remember me checkbox
 
 # Lost Password Scenarios

@@ -44,8 +44,10 @@ Scenario: Verify the list of products
   | iPods |
   | MacBooks |
 
+  #new tests for 1-1
   @1-1
   Scenario: Verify Registration from Product Category Page is not present
-
-  @1-1
   Scenario: Verify Login from the Product Category Page is not present
+  Scenario: Verify that a customer can create a product review on the Product page
+  Scenario: Verify that a customer can view a review of the product on the product Page
+  Scenario: Verify if a review is removed, then a customer can no longer see that review
