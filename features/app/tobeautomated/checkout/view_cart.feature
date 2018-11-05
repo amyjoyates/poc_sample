@@ -1,8 +1,9 @@
-@checkout @cart @1-0
+@checkout @cart
 Feature:  Checkout
  Acceptance Criteria:
 
-Background:  Setup
+Background: Not Automated yet
+  Given THIS IS CURRENTLY NOT AUTOMATED BUT WILL BE
   Given I am not logged in and have nothing in my cart
 
   @happy-path

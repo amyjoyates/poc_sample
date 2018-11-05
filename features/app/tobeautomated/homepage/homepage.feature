@@ -1,7 +1,10 @@
-@home @1-0
+@home
 Feature:  Home
   Acceptance Criteria:
 
+  Background: Not Automated yet
+    Given THIS IS CURRENTLY NOT AUTOMATED BUT WILL BE
+    
   Scenario: Verify Slider on homepage automatically goes to next product
     Given I am on the home page
     When Right after the navigation menu

@@ -1,9 +1,12 @@
-@home @1-0
+@home
 Feature:  Home
   Acceptance Criteria:
 
+  Background: Manual Test - speeds up test run
+    Given THIS IS A MANUAL TEST
+    And I am on the home page
+
   Scenario Outline: Verify Static Slider Content: Title, Image, Content, Price and Buy Now button
-    Given I am on the home page
     When Right after the navigation menu
     Then I should see the Buy Now button
     And I should see the product <title>
@@ -17,8 +20,7 @@ Feature:  Home
     | iPod Nano Blue | iPod-Nano-silver-on1.png | | |
     | iPhone 5| timthumb.png | | |
 
-  Scenario Outline: Verify Buy Now button takes you to the correct product page - note feature products could change
-    Given I am on the home page
+  Scenario Outline: Verify Buy Now button takes you to the correct product page - note feature products could change\
     And Right after the navigation menu
     When I click Buy Now for <product>
     Then I should be on the <product> page

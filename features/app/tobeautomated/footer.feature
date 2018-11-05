@@ -1,8 +1,9 @@
-@footer @manual @1-0
+@footer
 Feature:  Footer
 
-Background: Make sure you start on the homepage
-  Given I am on the home page
+Background: Not Automated yet
+  Given THIS IS CURRENTLY NOT AUTOMATED BUT WILL BE
+  And I am on the home page
 
   Scenario: Verify Pinterest Link
     When I navigate to "Latest Blog Post"

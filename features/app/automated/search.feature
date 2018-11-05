@@ -1,4 +1,4 @@
-@search @1-0
+@search
 Feature: Search
   Acceptance Criteria:
 

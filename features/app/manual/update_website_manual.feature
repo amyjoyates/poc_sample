@@ -1,7 +1,10 @@
-@software-delivery @manual @1-0
+@software-delivery @manual
 Feature:  Update Software
   Acceptance Criteria:
     This test is to make sure that we are able to update the existing website to the new code
+
+  Background: Manual Test - speeds up test run
+    Given THIS IS A MANUAL TEST
 
   Scenario: Verify update of website code
     Given that I have new code to Update
